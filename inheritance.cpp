@@ -32,4 +32,8 @@ class pelajar : public orang
     {
         cout << "pelajar dibuat\n" << endl;
     }
+    ~pelajar()
+    {
+        cout << "pelajar dihapus\n" << endl;
+    }
 }
